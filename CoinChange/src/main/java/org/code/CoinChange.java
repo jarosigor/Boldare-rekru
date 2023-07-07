@@ -67,7 +67,6 @@ public class CoinChange {
         while (bank.getCoinsQuantity() > 0) {
             System.out.println("Podaj reszte: ");
             change = scanner.nextDouble();
-            System.out.println(change);
             getChange(bank, change);
 
             if (bank.getCoinsQuantity() <= 0) {
